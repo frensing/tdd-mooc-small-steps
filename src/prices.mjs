@@ -95,7 +95,7 @@ function createApp(database) {
     return false;
   }
 
-  function convert(date) {if(date) { return date.toTemporalInstant().toZonedDateTimeISO("UTC").toPlainDate(); }}
+  
 
   return app;
 }
