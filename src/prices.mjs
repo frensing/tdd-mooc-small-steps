@@ -95,8 +95,6 @@ function createApp(database) {
     return false;
   }
 
-  
-
   return app;
 }
 
